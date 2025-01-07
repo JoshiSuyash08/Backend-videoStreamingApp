@@ -257,7 +257,7 @@ const changeCurretnUserPassword = asyncHandler(async(req, res) => {
     .json(new ApiResponse(200, {}, "Password changed successfully"))
 })
 
-const getCurentUser = asyncHandler(async(req, res) => {
+const getCurrentUser = asyncHandler(async(req, res) => {
     return res
     .status(200)
     .json(new ApiResponse(200, req.user, "User Fetched successfully"))
@@ -478,7 +478,7 @@ export {
     logoutUser,
     refreshAccessToken,
     changeCurretnUserPassword,
-    getCurentUser,
+    getCurrentUser,
     updataAccountDetails,
     updateUserAvatar,
     updateUserCoverImage,
