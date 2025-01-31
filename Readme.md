@@ -24,7 +24,7 @@ This project is the backend for a video application. It handles user management,
 Ensure you have the following installed:
 
 - Node.js 
-- npm or yarn
+- npm
 - A Cloudinary account for media storage
 
 ### Installation
